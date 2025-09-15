@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  vnc-desktop:
+    build: .
+    container_name: vnc-desktop
+    ports:
+      - "5901:5901"
+      - "2222:22"
+    volumes:
+      - ./data:/root/data
+    restart: unless-stopped
