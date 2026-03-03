@@ -1,6 +1,6 @@
-# 📚 HỆ THỐNG QUẢN LÝ THƯ VIỆN (Library Management System)
+# HỆ THỐNG QUẢN LÝ THƯ VIỆN (Library Management System)
 
-## 📌 Giới thiệu dự án
+## Giới thiệu dự án
 
 **Library Management System** là ứng dụng quản lý thư viện được xây dựng bằng **Java** và **JavaFX**, áp dụng các nguyên lý của **Lập trình hướng đối tượng (OOP)**.  
 
@@ -13,9 +13,9 @@ Dự án được thực hiện với mục tiêu mô phỏng một hệ thống
 
 ---
 
-## 🚀 Chức năng chính
+## Chức năng chính
 
-### 🔐 1. Xác thực và phân quyền
+### 1. Xác thực và phân quyền
 - Đăng ký tài khoản
 - Đăng nhập
 - Quên mật khẩu (gửi email khôi phục)
@@ -23,7 +23,7 @@ Dự án được thực hiện với mục tiêu mô phỏng một hệ thống
 
 ---
 
-### 📚 2. Quản lý sách (Manager)
+### 2. Quản lý sách
 - Thêm sách mới
 - Chỉnh sửa thông tin sách
 - Xóa sách
@@ -34,14 +34,14 @@ Dự án được thực hiện với mục tiêu mô phỏng một hệ thống
 
 ---
 
-### 👥 3. Quản lý người dùng (Manager)
+### 👥 3. Quản lý người dùng
 - Xem danh sách độc giả
 - Quản lý tài khoản quản lý
 - Theo dõi lịch sử mượn sách
 
 ---
 
-### 📖 4. Chức năng dành cho độc giả (Reader)
+### 📖 4. Chức năng dành cho độc giả
 - Xem danh sách sách có sẵn
 - Xem chi tiết sách
 - Mượn sách
@@ -51,6 +51,22 @@ Dự án được thực hiện với mục tiêu mô phỏng một hệ thống
 
 ---
 
-## 🏗️ Cấu trúc dự án
+## Nguyên lý và mô hình áp dụng
 
-Dự án được tổ chức theo mô hình phân tầng rõ ràng:
+- Lập trình hướng đối tượng (Encapsulation, Inheritance, Polymorphism)
+- Mô hình MVC (Model - View - Controller)
+- Phân tách rõ ràng giữa giao diện và xử lý nghiệp vụ
+- Kiểm thử đơn vị (Unit Testing)
+
+---
+
+## Công nghệ sử dụng
+
+- Java 17+
+- JavaFX
+- Maven
+- MySQL (kết nối qua JDBC)
+- Google Books API
+- JUnit (Unit Testing)
+- Thư viện tạo QR Code
+- Gửi email tự động
